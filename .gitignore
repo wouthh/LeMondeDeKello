@@ -1,1 +1,4 @@
 __history/
+*.groupproj.local
+*.dproj.local
+*.identcache
