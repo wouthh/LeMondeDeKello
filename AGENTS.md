@@ -25,9 +25,10 @@ material, not a verified current distribution.
 
 ## Documentation validation
 
-Run `git diff --check` and `git diff --cached --check`; after committing,
-run `git diff --check origin/master...HEAD` after verifying that `origin/master`
-still matches the recorded PR base.
+Run `git diff --check` and `git diff --cached --check`. For committed changes,
+set `PR_BASE_SHA` to the exact verified PR base commit and run
+`git diff --check "${PR_BASE_SHA:?}...HEAD"`. Do not infer the comparison ref
+from a cloud checkout's local branch name; verify the repository target separately.
 Inspect the complete proposed diff and file allowlist, Markdown rendering,
 relative links, source-backed claims and redacted privacy/secret checks.
 There is no verified current application build or test gate. Do not run the

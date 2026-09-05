@@ -8,7 +8,7 @@ Historical Delphi/Object Pascal console adventure for Windows, featuring charact
 
 ## Chronologie
 
-Développement initial : vers 2013, selon le souvenir du propriétaire. Publication sur GitHub : 5 juillet 2018, attestée par l’historique du dépôt. La date de publication ne constitue pas une preuve de la date de création.
+Développement initial : vers 2013, selon le souvenir du propriétaire. Publication sur GitHub : 5 juillet 2018 (UTC), attestée par l’historique du dépôt. Le premier commit est daté du 6 juillet dans son décalage horaire enregistré (+02:00). La date de publication ne constitue pas une preuve de la date de création.
 
 ## Fonctionnalités présentes dans le code
 
